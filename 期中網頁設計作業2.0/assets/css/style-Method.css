@@ -1,0 +1,428 @@
+/* 字體導入 */
+
+@font-face{
+    font-family:NewFont01;
+    src:url(../fonts/D1.ttf);
+}
+  
+body{
+    width: 1900px;
+    height: 1900px;
+    margin: 0;
+}
+    
+/* 至頂菜單 */
+  
+#menu {
+  width: 1900px;
+  height: 85px;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 999;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+  
+#menu-ul {
+  width: 800px;
+  height: 21px;
+  top: 15%;
+  right: 0%;
+  position: absolute;
+}
+
+#home{
+  width: 200px;
+  height: 21px;
+  top: 35%;
+  left: 0%;
+  position: absolute;
+}
+
+/* 菜單中文字變色 */
+  
+.a1{
+  padding:50px;
+  font-size: 25px;
+  font-family: NewFont01;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  cursor: pointer;
+  transition: all .3s linear;
+  color: #000000;
+}
+  
+.a1:hover{
+  color: #6A70E9;
+}
+
+#home-font{
+  padding:50px;
+  font-size: 25px;
+  font-family: NewFont01;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  cursor: pointer;
+  transition: all .3s linear;
+  color: #000000;
+}
+
+#home-font:hover{
+  color: #6A70E9;
+}
+
+/* 影片區塊一 */
+
+#box01{
+    width: 1900px;
+    height: 900px;
+    background-color: #f9f9f9;
+
+}
+
+#video-back01{
+    width: 1250px;
+    height: 750px;
+    max-width: 118.968em;
+    bottom: 0%;
+    left: 20%;
+    position: absolute;
+    object-fit: cover;
+    opacity: 0.8;
+    margin: 0;
+}
+
+/* 文字區塊一 */
+
+#box02{
+  width: 1900px;
+  height: 362px;
+  position: relative;
+  background-color: #FFFFFF;
+}
+  
+#box02-1{
+  width: 1400px;
+  top: 50%;
+  left: 23%;
+  position: absolute;
+}
+  
+#box02-fontA{
+  width: 1000px;
+  height: 70px;
+  top: 20%;
+  left: 23%;
+  position: absolute;
+  font-size: 28px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+  
+.box02-fontB{
+  width: 300px;
+  height: 135px;
+  margin-right: 80px;
+  font-size: 14px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  float: left;
+}
+
+/* 大圖區塊一 */
+
+#box03{
+  width: 1900px;
+  height: 900px;
+  background-color: #f9f9f9;
+}
+  
+#box03-1{
+  width: 1900px;
+  height: 900px;
+  position: absolute;
+}
+  
+#box03-image{
+  width: 1250px;
+  height: 750px;
+  bottom: 0%;
+  left: 20%;
+  position: absolute;
+}
+
+/* 文字區塊二 */
+
+#box04{
+  width: 1900px;
+  height: 362px;
+  position: relative;
+  background-color: #FFFFFF;
+}
+  
+#box04-1{
+  width: 1400px;
+  top: 50%;
+  left: 23%;
+  position: absolute;
+}
+
+#box04-font00{
+  width: 35px;
+  height: 35px;
+  top: 21%;
+  left: 20%;
+  position: absolute;
+  font-size: 28px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  text-align: center;
+  color: #6A70E9;
+}
+  
+#box04-fontA{
+  width: 1000px;
+  height: 70px;
+  top: 20%;
+  left: 23%;
+  position: absolute;
+  font-size: 28px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+  
+.box04-fontB{
+  width: 300px;
+  height: 135px;
+  margin-right: 80px;
+  font-size: 14px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  float: left;
+}
+
+/* 大圖區塊一 */
+
+#box05{
+  width: 1900px;
+  height: 900px;
+  background-color: #f9f9f9;
+}
+  
+#box05-1{
+  width: 1900px;
+  height: 900px;
+  position: absolute;
+}
+  
+#box05-image{
+  width: 1250px;
+  height: 750px;
+  bottom: 0%;
+  left: 20%;
+  position: absolute;
+}
+
+/* 文字區塊三 */
+
+#box06{
+  width: 1900px;
+  height: 362px;
+  position: relative;
+  background-color: #FFFFFF;
+}
+  
+#box06-1{
+  width: 1400px;
+  top: 50%;
+  left: 23%;
+  position: absolute;
+}
+
+#box06-font00{
+  width: 35px;
+  height: 35px;
+  top: 21%;
+  left: 20%;
+  position: absolute;
+  font-size: 28px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  text-align: center;
+  color: #6A70E9;
+}
+  
+#box06-fontA{
+  width: 1000px;
+  height: 70px;
+  top: 20%;
+  left: 23%;
+  position: absolute;
+  font-size: 28px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+  
+.box06-fontB{
+  width: 300px;
+  height: 135px;
+  margin-right: 80px;
+  font-size: 14px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  float: left;
+}
+
+/* 大圖區塊三 */
+
+#box07{
+  width: 1900px;
+  height: 900px;
+  background-color: #f9f9f9;
+}
+  
+#box07-1{
+  width: 1900px;
+  height: 900px;
+  position: absolute;
+}
+  
+#box07-image{
+  width: 1250px;
+  height: 750px;
+  bottom: 0%;
+  left: 20%;
+  position: absolute;
+}
+
+/* 文字區塊三 */
+
+#box08{
+  width: 1900px;
+  height: 362px;
+  position: relative;
+  background-color: #FFFFFF;
+}
+  
+#box08-1{
+  width: 1400px;
+  top: 50%;
+  left: 23%;
+  position: absolute;
+}
+
+#box08-font00{
+  width: 35px;
+  height: 35px;
+  top: 21%;
+  left: 20%;
+  position: absolute;
+  font-size: 28px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  text-align: center;
+  color: #6A70E9;
+}
+  
+#box08-fontA{
+  width: 1000px;
+  height: 70px;
+  top: 20%;
+  left: 23%;
+  position: absolute;
+  font-size: 28px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+  
+.box08-fontB{
+  width: 300px;
+  height: 135px;
+  margin-right: 80px;
+  font-size: 14px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  float: left;
+}
+
+/* 最底層內容區塊 */
+
+footer{
+  width: 1900px;
+  height: 350px;
+  background: #E1E1E1;
+}
+
+#box09{
+  width: 468px;
+  height: 108px;
+  top: 20%;
+  left: 14%;
+  position: relative;
+  font-size: 14px;
+  line-height: 24px;
+  float: left;
+  font-family: NewFont01;
+}
+
+#box09-JH{
+  width: 570px;
+  height: 53px;
+  top: 50%;
+  position: relative;
+  font-size: 12px;
+}
+
+#box09-1{
+  width: 498px;
+  height: 102px;
+  top: 20%;
+  left: 40%;
+  position: relative;
+  font-size: 14px;
+  line-height: 24px;
+  text-align:right;
+  float: left;
+  font-family: NewFont01;
+}
+
+.box09-1-images{
+  width: 30px;
+  height: 30px;
+  top: 50%;
+  left: 85%;
+  position: relative;
+  margin-right: 15px;
+  float: left;
+}
+
+.box09-1-Logo{
+  width: 30px;
+  height: 30px;
+}
+
+#box09-1-CU{
+  width: 498px;
+  height: 102px;
+  top: 80%;
+  position: relative;
+}
+
+
+
+

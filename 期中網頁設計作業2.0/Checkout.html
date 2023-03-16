@@ -1,0 +1,176 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <title>P | Checkout</title>
+    <link rel="icon" href="images/Logo.ico" type="image/x-icon">
+    <!-- CSS連結 -->
+    <link rel="stylesheet" href="assets/css/style-Checkout.css">
+</head>
+<body>
+    <!-- 至頂菜單 -->
+    <div id="menu">
+        <div id="home">
+            <a id="home-font" href="P.html">Home</a>
+        </div>
+    <ul id="menu-ul">
+      <a class="a1" href="Idea.html">Idea</a>
+      <a class="a1" href="Cooperate.html">Cooperate</a>
+      <a class="a1" href="Method.html">Method</a>
+      <a class="a1" href="Invest.html">Invest</a>
+    </ul>
+    </div>
+    <!-- 結帳區塊 -->
+    <div id="box01">
+        <div id="box01-font">帳單</div>
+    </div>
+    <div id="box02">
+        <!-- 選購 -->
+        <div id="box02-1">
+            <div id="box02-1-font">
+                選擇您的方案
+            </div>
+            <hr id="box02-1-hr01">
+            <!-- 智能建築工具 -->
+            <img id="commodity00" src="images/tool00.png">
+            <div id="commodity00-fontA">
+                3D PAM<br>
+                智能建築工具
+            </div>
+            <div id="commodity00-fontB">
+                顏色:默認黑黃<br>
+                尺寸:默認<br>
+                $15000.00
+            </div>
+            <div id="commodity00-fontC">
+                $15000.00
+            </div>
+            <input id="commodity00countId" type="number" value="1" min="1">
+            <hr id="box02-1-hr02">
+            <!-- 智能建築材料包 -->
+            <img id="commodity01" src="images/tool00.png">
+            <div id="commodity01-fontA">
+                3D PAM<br>
+                智能建築材料包
+            </div>
+            <div id="commodity01-fontB">
+                顏色:包含每種顏色<br>
+                期數:1期<br>
+                $7500.00
+            </div>
+            <div id="commodity01-fontC">
+                $7500.00
+            </div>
+            <input id="commodity01countId" type="number" value="1" min="1">
+            <hr id="box02-1-hr03">
+            <!-- 智能保固合約 -->
+            <img id="commodity02" src="images/tool00.png">
+            <div id="commodity02-fontA">
+                3D PAM<br>
+                智能保固合約
+            </div>
+            <div id="commodity02-fontB">
+                保固:任何損壞都可維修<br>
+                期數:4期<br>
+                $10000.00
+            </div>
+            <div id="commodity02-fontC">
+                $10000.00
+            </div>
+            <input id="commodity02countId" type="number" value="1" min="1">
+            <hr id="box02-1-hr04">
+            <!-- 客戶資訊一 -->
+            <div id="commodity03-fontA">
+                VIP會員
+            </div>
+            <div id="commodity03-fontB">
+                得到第一手產品外<br>
+                還可打8折
+            </div>
+            <input type="checkbox" id="commodity03countId">
+            <div id="commodity04-fontA">
+                會員資訊
+            </div>
+            <div id="commodity04-fontB">
+                獲取本公司第一手資訊<br>
+                我們將資訊發到你的郵箱
+            </div>
+            <input type="checkbox" id="commodity04countId">
+            <div id="commodity05-fontA">
+                額外贊助
+            </div>
+            <input id="commodity05countId" type="number" value="0"placeholder="請輸入贊助金額">
+            <hr id="box02-1-hr05">
+            <!-- 客戶資訊二 -->
+            <div id="commodity06-fontA">
+                姓氏
+            </div>
+            <input id="commodity06countId" type="text" value="" placeholder="請輸入姓氏">
+            <div id="commodity07-fontA">
+                名字
+            </div>
+            <input id="commodity07countId" type="tel" value="" min="10" placeholder="請輸入名字">
+            <div id="commodity08-fontA">
+                電話
+            </div>
+            <input id="commodity08countId" type="email" value="" maxlength="10" placeholder="請輸入電話">
+            <div id="commodity09-fontA">
+                電子郵箱
+            </div>
+            <input id="commodity09countId" type="text" value="" placeholder="請輸入電子郵箱">
+            <div id="commodity10-fontA">
+                VISA卡號
+            </div>
+            <input id="commodity10countId" type="text" value="" maxlength="16" placeholder="請輸入VISA卡號">
+            <div id="commodity11-fontA">
+                安全碼
+            </div>
+            <input id="commodity11countId" type="text" value="" maxlength="3" placeholder="請輸入安全碼">
+            <hr id="box02-1-hr06">
+            <button id="btn" onclick="this.disabled=true">送出訂單</button>
+    </div>
+    <!-- 明細 -->
+    <div id="box02-2">
+        <div id="box02-2-font">
+            訂單明細
+        </div>
+        <div id="out">
+            <em id='User'></em>
+            <em id='UserText'></em>
+            <em id='totalId'></em>
+        </div>
+    </div>
+
+    <!-- 最底層區塊內容 -->
+    <footer>
+        <div id="box05">
+          MADE PRODUCT DEVELOPMENT LTD.<br>
+          888  Wall Street<br>
+          Silent Hill,ND 1110404<br>
+          A98 B019,TW<br>
+          <div id="box05-JH"> 
+            © 2022 MADE-JH & Coffee Stain Studios
+          </div>
+        </div>
+        <div id="box05-1">
+          Company Registered in Taiwan, NO: 22901002<br>
+          VAT Registration NO: 020622321
+          <div class="box05-1-images">
+            <a href="https://www.instagram.com/g53h._.0922/">
+            <img class="box05-1-Logo" src="images/IG.png">
+            </a>
+          </div>
+          <div class="box05-1-images">
+            <a href="https://www.facebook.com/profile.php?id=100022184678848">
+            <img class="box05-1-Logo" src="images/FB.png">
+            </a>
+          </div>
+          <div id="box05-1-CU">
+            聯繫我們<br>
+            +886(04) 168 178 5168<br>
+            info@pam.co.tw<br>
+        </div>
+        </div>
+      </footer>
+  <script src="assets/js/Checkout.js"></script>
+</body>
+</html>

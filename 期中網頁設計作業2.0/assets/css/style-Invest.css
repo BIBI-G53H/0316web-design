@@ -1,0 +1,268 @@
+/* 字體導入 */
+
+@font-face {
+  font-family:NewFont01;
+  src:url(../fonts/D1.ttf);
+}
+
+body{
+  width: 1900px;
+  margin: 0;
+}
+  
+/* 至頂菜單 */
+  
+#menu {
+  width: 1900px;
+  height: 85px;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 999;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+  
+#menu-ul {
+  width: 800px;
+  height: 21px;
+  top: 15%;
+  right: 0%;
+  position: absolute;
+}
+
+#home{
+  width: 200px;
+  height: 21px;
+  top: 35%;
+  left: 0%;
+  position: absolute;
+}
+
+/* 菜單中文字變色 */
+  
+.a1{
+  padding:50px;
+  font-size: 25px;
+  font-family: NewFont01;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  cursor: pointer;
+  transition: all .3s linear;
+  color: #000000;
+}
+  
+.a1:hover{
+  color: #6A70E9;
+}
+
+#home-font{
+  padding:50px;
+  font-size: 25px;
+  font-family: NewFont01;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  cursor: pointer;
+  transition: all .3s linear;
+  color: #000000;
+}
+
+#home-font:hover{
+  color: #6A70E9;
+}
+
+/* 影片區塊一 */
+
+#box01{
+    width: 1900px;
+    height: 900px;
+    background-color: #f9f9f9;
+}
+
+#video-back01{
+    width: 1250px;
+    height: 750px;
+    max-width: 118.968em;
+    bottom: 0%;
+    left: 20%;
+    position: absolute;
+    object-fit: cover;
+    opacity: 0.8;
+    margin: 0;
+}
+
+/* 文字區塊一 */
+
+#box02{
+  width: 1900px;
+  height: 362px;
+  position: relative;
+  background-color: #FFFFFF;
+}
+  
+#box02-1{
+  width: 1400px;
+  top: 50%;
+  left: 23%;
+  position: absolute;
+}
+  
+#box02-fontA{
+  width: 1000px;
+  height: 70px;
+  top: 20%;
+  left: 23%;
+  position: absolute;
+  font-size: 28px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+  
+.box02-fontB{
+  width: 300px;
+  height: 135px;
+  margin-right: 80px;
+  font-size: 14px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  float: left;
+}
+
+/* 影片區塊二 */
+
+#box03{
+  width: 1900px;
+  height: 900px;
+  position: relative;
+  background-color: #EBE9E9;
+  z-index: 1;
+
+}
+
+#video-back03{
+  width: 900px;
+  height: 550px;
+  bottom: 25%;
+  left: 40%;
+  z-index: -999;
+  position: absolute;
+  object-fit: cover;
+  margin: 0;
+}
+
+#box03-1{
+  width: 702px;
+  height: 311px;
+  top: 50%;
+  left: 15%;
+  position: relative;
+  background:rgba(255, 255, 255, 0.3);
+}
+  
+#box03-1-fontA{
+  width: 525px;
+  height: 105px;
+  top:  15%;
+  left: 5%;
+  position: absolute;
+  font-size: 30px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  color: #617389;
+}
+  
+#box03-1-fontB{
+  width: 425px;
+  height: 54px;
+  top:  50%;
+  left: 5%;
+  z-index: 3;
+  position: absolute;
+  font-size: 15px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  color: #617389;
+}
+
+#button-box03{
+  width: 35px;
+  height: 35px;
+  top: 75%;
+  left: 17%;
+  position: absolute;
+}
+
+#button-image{
+  width: 35px;
+  height: 35px;
+}
+
+/* 最底層內容區塊 */
+
+footer{
+  width: 1900px;
+  height: 350px;
+  background: #E1E1E1;
+}
+
+#box04{
+  width: 468px;
+  height: 108px;
+  top: 20%;
+  left: 14%;
+  position: relative;
+  font-size: 14px;
+  line-height: 24px;
+  float: left;
+  font-family: NewFont01;
+}
+
+#box04-JH{
+  width: 570px;
+  height: 53px;
+  top: 50%;
+  position: relative;
+  font-size: 12px;
+}
+
+#box04-1{
+  width: 498px;
+  height: 102px;
+  top: 20%;
+  left: 40%;
+  position: relative;
+  font-size: 14px;
+  line-height: 24px;
+  text-align:right;
+  float: left;
+  font-family: NewFont01;
+}
+
+.box04-1-images{
+  width: 30px;
+  height: 30px;
+  top: 50%;
+  left: 85%;
+  position: relative;
+  margin-right: 15px;
+  float: left;
+}
+
+.box04-1-Logo{
+  width: 30px;
+  height: 30px;
+}
+
+#box04-1-CU{
+  width: 498px;
+  height: 102px;
+  top: 80%;
+  position: relative;
+}
