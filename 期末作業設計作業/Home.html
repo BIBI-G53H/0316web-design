@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | 畫廊</title>
+	<link rel="icon" href="images/brush.svg" type="image/x-icon">
+    <!-- CSS連結 -->
+    <link rel="stylesheet" href="assets/css/fullpage.css">
+	<link rel="stylesheet" href="assets/css/Home-style.css">
+    <link rel="stylesheet" href="assets/css/Michelangelo-schedule.css">
+
+	<!-- FullPage連結 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.9/fullpage.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+
+	<!-- Bootstrap連結 -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+	<!-- 畫家菜單 -->
+	<div id="painter-menu"> 
+		<a class="painter-menu-ulon" href="#">Gallery</a>
+		<button class="painter-menu-ul" data-bs-toggle="offcanvas" data-bs-target="#demo01">Painter</button>
+		<a class="painter-menu-ul" href="#">About</a>
+	</div>
+
+	<div class="offcanvas offcanvas-start" id="demo01">
+		<div class="offcanvas-header">
+			<button type="button" id="close-btn" data-bs-dismiss="offcanvas">Close</button>
+		</div>
+		<div id="offcanvas-body01">
+			<div id="menu-fontdiv"> 
+				<a class="menu-font" href="DaVinci.html">DaVinci</a>
+				<a class="menu-font menu-font01" href="Michelangelo.html">Michelangelo</a>
+				<a class="menu-font" href="Raphael.html">Raphael</a>
+			</div>
+		</div>
+	</div>
+	<!-- 彈出菜單 -->
+	<div class="offcanvas offcanvas-end" id="demo">
+		<div class="offcanvas-header">
+			<button type="button" id="close-btn" data-bs-dismiss="offcanvas">Close</button>
+		</div>
+		<div id="offcanvas-body01">
+			<div id="menu-fontdiv"> 
+				<a class="menu-font" href="Home.html">Home</a>
+				<a class="menu-font" href="Order.html">Order</a>
+				<a class="menu-font" href="#">About</a>
+			</div>
+		</div>
+	</div>
+	<button id="menu-btn" data-bs-toggle="offcanvas" data-bs-target="#demo">Menu</button>
+	<!-- 整頁式網頁 -->
+    <div id="fullpage">
+        <div class="section" id="section s1">
+			<div class="section-div">
+				<div id="note-1">Gallery</div>
+                <video class="Home-mp4" autoplay loop muted>
+                    <source src="mp4/video01.mp4">
+                </video>
+			</div>
+        </div>
+        <div class="section" id="section s2">
+			<div class="section-div">
+                <div id="note-2">Painter</div>
+                <div id="homediv-font01">Paintings & History</div>
+                <div id="homediv-font">認識文藝復興三傑</div>
+                <a class="homediv-font homediv-font01" href="DaVinci.html">地表最強斜槓天才 | 達文西</a>
+                <a class="homediv-font homediv-font02" href="Michelangelo.html">雕像壁畫樣樣行 | 米開朗基羅</a>
+                <a class="homediv-font homediv-font03" href="Raphael.html">文藝復興畫聖 | 拉斐爾</a>
+                <img id="homediv02-img" src="images/image34.png">
+			</div>
+        </div>
+        <div class="section" id="section s3">
+            <div class="section-div">
+                <div id="note-3">Order</div>
+                <div id="homediv03-font01">Order & Imitations</div>
+                <div id="homediv03-font">購買您喜歡的油畫</div>
+                <a id="homediv03-font02">
+                    複製品將由我們一位專業的藝術家手繪。將隨附免費的真品證書，以驗證您購買的手繪美術複製品的真實性。
+                </a>
+                <a class="homediv03-font homediv03-font01" href="#">點擊選購樣式</a>
+                <img id="homediv03-img" src="images/image35.png">
+            </div>
+        </div>
+        <div class="section" id="section s4">
+			<div id="BigThree-div">
+                <div id="contactus">
+                    <div id="note-4">Contact Me</div>
+                    <input type="text" name="name" class="Name-text" placeholder="Name" autocomplete="off" data-description="0687">
+                    <hr class="name-hr" data-description="0687">
+                    <input type="text" name="email" class="Email-text" placeholder="Email" autocomplete="off">
+                    <hr class="email-hr">
+                    <input type="text" name="comments" class="ContactMe-text" placeholder="Message" autocomplete="off">
+                    <hr class="text-hr">
+                    <button class="send">Send</button>
+                </div>
+			</div>
+        </div>
+    </div>
+
+	<script src="assets/js/fullpage-04.js"></script>
+</body>
+
+</html>

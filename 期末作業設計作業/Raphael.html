@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raphael | 拉斐爾</title>
+	<link rel="icon" href="images/brush.svg" type="image/x-icon">
+    <!-- CSS連結 -->
+    <link rel="stylesheet" href="assets/css/fullpage.css">
+	<link rel="stylesheet" href="assets/css/Raphael-style.css">
+	<link rel="stylesheet" href="assets/css/Raphael-schedule.css">
+
+	<!-- FullPage連結 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.9/fullpage.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+
+	<!-- Bootstrap連結 -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+	<!-- 畫家菜單 -->
+	<div id="painter-menu"> 
+		<a class="painter-menu-ulon" href="#">Raphael</a>
+		<button class="painter-menu-ul" data-bs-toggle="offcanvas" data-bs-target="#demo01">Painter</button>
+		<a class="painter-menu-ul" href="#">About</a>
+	</div>
+
+	<div class="offcanvas offcanvas-start" id="demo01">
+		<div class="offcanvas-header">
+			<button type="button" id="close-btn" data-bs-dismiss="offcanvas">Close</button>
+		</div>
+		<div id="offcanvas-body01">
+			<div id="menu-fontdiv"> 
+				<a class="menu-font" href="DaVinci.html">DaVinci</a>
+				<a class="menu-font menu-font01" href="Michelangelo.html">Michelangelo</a>
+				<a class="menu-font" href="Raphael.html">Raphael</a>
+			</div>
+		</div>
+	</div>
+	<!-- 彈出菜單 -->
+	<div class="offcanvas offcanvas-end" id="demo">
+		<div class="offcanvas-header">
+			<button type="button" id="close-btn" data-bs-dismiss="offcanvas">Close</button>
+		</div>
+		<div id="offcanvas-body01">
+			<div id="menu-fontdiv"> 
+				<a class="menu-font" href="Home.html">Home</a>
+				<a class="menu-font" href="Order.html">Order</a>
+				<a class="menu-font" href="#">About</a>
+			</div>
+		</div>
+	</div>
+	<button id="menu-btn" data-bs-toggle="offcanvas" data-bs-target="#demo">Menu</button>
+	<!-- 整頁式網頁 -->
+    <div id="fullpage">
+        <div class="section" id="section s1">
+			<div class="section-div">
+				<div id="note-1">Raphael</div>
+				<img id="painter-img" src="images/image28.png">
+			</div>
+        </div>
+        <div class="section" id="section s2">
+			<!-- 時間表 -->
+			<div class="section-div">
+				<div id="note-2">SCHEDULE</div>
+				<div class="flex-parent">
+					<div class="input-flex-container">
+						<input type="radio" name="timeline-dot" data-description="1483"checked>
+						<div class="dot-info" data-description="1483">
+							<span01 class="year">1483</span>
+							<span01 class="label">Raphael</span>
+						</div>
+						<input type="radio" name="timeline-dot" data-description="1500">
+						<div class="dot-info" data-description="1500">
+							<span01 class="year">1500</span>
+							<span01 class="label">Angel</span>
+						</div>
+						<input type="radio" name="timeline-dot" data-description="1500-1">
+						<div class="dot-info" data-description="1500-1">
+							<span01 class="year">1500</span>
+							<span01 class="label">Net Fishing</span>
+						</div>
+						<input type="radio" name="timeline-dot" data-description="1502">
+						<div class="dot-info" data-description="1502">
+							<span01 class="year">1502</span>
+							<span01 class="label">Solly Madonna</span>
+						</div>
+						<input type="radio" name="timeline-dot" data-description="1503">
+						<div class="dot-info" data-description="1503">
+							<span01 class="year">1503</span>
+							<span01 class="label">St.Sebastian</span>
+						</div>
+						<input type="radio" name="timeline-dot" data-description="1505">
+						<div class="dot-info" data-description="1505">
+							<span01 class="year">1505</span>
+							<span01 class="label">St. Michael</span>
+						</div>
+						<input type="radio" name="timeline-dot" data-description="1510">
+						<div class="dot-info" data-description="1510">
+							<span01 class="year">1510</span>
+							<span01 class="label">Adam and Eve</span>
+						</div>
+						<input type="radio" name="timeline-dot" data-description="1512">
+						<div class="dot-info" data-description="1512">
+							<span01 class="year">1512</span>
+							<span01 class="label">The Prophet Isaiah</span>
+						</div>
+						<input type="radio" name="timeline-dot" data-description="1515">
+						<div class="dot-info" data-description="1515">
+							<span01 class="year">1515</span>
+							<span01 class="label">Bindo Altoviti</span>
+						</div>
+						<input type="radio" name="timeline-dot" data-description="1518">
+						<div class="dot-info" data-description="1518">
+							<span01 class="year">1518</span>
+							<span01 class="label">Ezekiel's Vision</span>
+						</div>
+						<input type="radio" name="timeline-dot" data-description="1518-1">
+						<div class="dot-info" data-description="1518-1">
+							<span01 class="year">1518</span>
+							<span01 class="label">La Fornarina</span>
+						</div>
+						<input type="radio" name="timeline-dot" data-description="1520">
+						<div class="dot-info" data-description="1520">
+							<span01 class="year">1520</span>
+							<span01 class="label">The Transfiguration</span>
+						</div>
+						<div id="timeline-descriptions-wrapper">
+							<p class="font01" data-description="1483">
+								《拉斐爾》（英語:Raphael）義大利畫家、建築師。達文西和米開朗基羅合稱「文藝復興三傑」。拉斐爾畫作向以「秀美」著稱，其筆下人物清秀，場景優美。<br><br>
+								他的著名宗教畫「聖母系列」將宗教的虔誠和非宗教的美貌有機地融為一體；他的畫即使是《聖喬治大戰惡龍》的場面看起來也是平靜安詳的。他為梵蒂岡教宗居室創作的大型壁畫《雅典學院》是經典之作，將柏拉圖和亞里斯多德，基督教和異教，統統融合在一起，創造出和諧的場面。同時也創作出許多著名的肖像如《良十世像》。他的性情平和、文雅，和他的畫作一樣。拉斐爾於1520年高燒猝逝於羅馬，終年37歲，葬於萬神廟。
+							</p>
+							<img src="images/pic03.png" id="pic01" data-description="1483">
+							<p class="font01" data-description="1500">
+								《天使》（英語:Angel）編號:Raphael_072。作者:拉斐爾（英語:Raphael）。年份:1500。原作尺寸:31 x 27 cm。原作材質:油彩畫板。
+							</p>
+							<img src="images/image23.png" class="pic01-image02" data-description="1500">
+							<p class="font01" data-description="1500-1">
+								《撒網捕魚的神蹟》（英語:Net Fishing）編號:Raphael_025。作者:拉斐爾（英語:Raphael）。年份:1500。原作尺寸:319 x 399 cm。原作材質:紙．畫布。
+							</p>
+							<img src="images/image24.png" class="pic01-image02" data-description="1500-1">
+							<p class="font01" data-description="1502">
+								《索利麥當娜》（英語:Solly Madonna）創作於1500年至1504年之間。<br><br>
+								一部早期的作品，它清楚地顯示了拉斐爾的老師佩魯吉諾的影響。這部作品中的兩個主題將在拉斐爾後來的《麥當娜》中重現。聖母瑪利亞正在讀一本書，如諾頓西蒙博物館的麥當娜和兒童、Conestabile Madonna、Madonna Colonna和Madonna del cardellino。就像在最後一幅畫中，一隻小鳥，一隻金翅雀，是場景的一部分。<br><br>
+								這幅畫位於柏林的 Gemäldegalerie。它被稱為Solly Madonna，因為它由英國銀行家和藝術收藏家Edward Solly（創作於1776年至1848年）擁有。
+							</p>
+							<img src="images/image25.png" class="pic01-image02" data-description="1502">
+							<p class="font01" data-description="1503">
+								《聖塞巴斯蒂安》（英語:St.Sebastian）是義大利文藝復興時期藝術家。創作於1501年至1503年。作為他早期作品的一部分，它被安置在意大利貝加莫的卡拉拉學院。原作尺寸:43 x 34 公分。原作材質:油彩、木材。
+							</p>
+							<img src="images/image26.png" class="pic01-image02" data-description="1503">
+							<p class="font01" data-description="1505">
+								《聖邁克爾》（義大利語:St. Michael）這幅畫是藝術家的早期作品，於1504年或1505年在繪圖板背面為烏爾比諾公爵執行，可能是為了感謝法國路易十二授予弗朗切斯科聖邁克爾勳章的侄子和繼承人。無論創作的動力是什麼，到 1548 年，它都被掛在楓丹白露宮的收藏中。<br><br>
+								在2006年的《拉斐爾早期作品》中，朱莉婭·卡特賴特暗示它可能背叛了蒂莫特奧·維蒂對邁克爾綠色翅膀的金色著色的影響，而背景中的罪人則暗示拉斐爾可能查閱了但丁的《地獄》插圖卷。所描繪的懲罰反映了但丁對待偽君子和小偷的方式。<br><br>
+								在完成小聖邁克爾十多年後，拉斐爾受委託重新審視這個主題，於 1518 年為教皇利奧十世製作了聖邁克爾征服撒旦。
+							</p>
+							<img src="images/image27.png" class="pic01-image02" data-description="1505">
+							<p class="font01" data-description="1510">
+								《雅典學院》（義大利語:Scuola di Atene）是意大利文藝復興時期藝術家拉斐爾的一幅壁畫。它是在 1509 年至 1511 年間繪製的，作為拉斐爾委託裝飾梵蒂岡使徒宮中現在被稱為Stanze di Raffaello。 <br><br>
+								Stanza della Segnatura是第一個被裝飾的房間，代表哲學的雅典學院可能是在對面牆上的La Disputa （神學）和Parnassus（文學）之後完成的第三幅畫。這幅畫以其精確的透視投影而著稱，拉斐爾從達芬奇（他是這幅畫的中心人物，代表柏拉圖）那裡學來的。 <br><br>
+								古希臘哲學和文化在歐洲的重生（以及拉斐爾的作品）受到列奧納多個人追求的啟發戲劇、工程、光學、幾何學、生理學、解剖學、歷史、建築和藝術。這部作品長期以來被視為“拉斐爾的傑作，是文藝復興時期古典精神的完美體現。
+							</p>
+							<img src="images/image28.png" class="pic01-image01" data-description="1510">
+							<p class="font01" data-description="1512">
+								《先知以賽亞》(英語:The Prophet Isaiah)先知以賽亞是一幅壁畫，位於羅馬文藝復興早期的聖阿戈斯蒂諾教堂。這是一幅意大利文藝復興時期的畫作，受米開朗基羅在西斯廷教堂天花板上的作品的影響。 <br><br>
+								以賽亞，一個強大的人物，給人一種三維人物的錯覺，兩側是普蒂人物。他帶著一卷用希伯來文祈求進入天堂的書卷（以賽亞書 XXVI:2-3）。在他上方是用希臘語寫給聖安妮的獻詞。由於磨損，拉斐爾的作品隨著時間的推移被其他畫家修飾。 1960年，這幅壁畫恢復了拉斐爾的視野。
+							</p>
+							<img src="images/image29.png" class="pic01-image02" data-description="1512">
+							<p class="font01" data-description="1515">
+								《賓多·阿爾托維蒂》(英語:Bindo Altoviti)是意大利文藝復興時期畫家拉斐爾在1515年左右完成的一幅畫。它位於美國華盛頓特區 的國家美術館。<br><br>
+								Bindo Altoviti是一位富有的銀行家，1491 年出生於羅馬，來自佛羅倫薩。他是一個喜歡藝術的有文化的人。<br><br>
+								主體的優雅、近乎柔弱的位置以及光與影之間的強烈對比是拉斐爾作品的非典型，尤其是他的男性肖像，展示了藝術家在羅馬後期對不同風格和形式的實驗。拉斐爾在其職業生涯的這一時期對達芬奇作品的影響在這幅特別的作品中非常明顯。
+							</p>
+							<img src="images/image30.png" class="pic01-image02" data-description="1515">
+							<p class="font01" data-description="1518">
+								《以西結的幻象》（英語:Ezekiel's Vision）文藝復興時期的藝術傳記作家喬治·瓦薩裡將這幅作品銘記為博洛尼亞貴族文森佐·埃爾科拉尼 的財產。有他在 1510 年向拉斐爾支付 8杜卡特的痕跡，但這通常被認為只是首付，因為從風格上看，這件作品（例如受米開朗基羅的西斯廷教堂天花板的啟發）的日期不能早於 1518 年。 <br><br>
+								早在 1589 年，它就在佛羅倫薩被割讓給弗朗切斯科·德·美第奇 )，並被安置在烏菲茲美術館。眾所周知，這幅畫於 1697 年在皮蒂宮 展出。 1799 年，這幅畫被法國人搶劫，法國人將其保存在巴黎，直到 1816 年歸還。 <br><br>
+								該作品曾被認為出自朱利奧·羅馬諾之手，而拉斐爾僅提供了圖紙。然而，它隨後被分配給了拉斐爾。
+							</p>
+							<img src="images/image31.png" class="pic01-image02" data-description="1518">
+							<p class="font01" data-description="1518-1">
+								《年輕女子的肖像》（義大利語:La fornarina）是義大利文藝復興時期大師拉斐爾的一幅畫，創作於 1518 年至 1519 年間。它位於羅馬巴貝里尼宮的安提卡國家藝術博物館。 <br><br>
+								傳統上，這個女人被認為是拉斐爾的羅馬情人瑪格麗塔·盧蒂，她拒絕嫁給他，儘管這一直受到質疑。或者，可以說這不是特定女性的肖像，而是拉斐爾對美女主題的解釋和對妓女的描繪。儘管如此，對模特是誰的另一種解釋將這個人物確定為女巫。學生們畫的。但據考證，畫面左下角的那位聖安德魯是拉斐爾所畫，他的姿態動作前伸轉首，身體的明暗對比強烈，這種大反差造型，為70年後的卡拉瓦喬所發展。畫面色彩鮮明、響亮且豐富，這表明他吸收了威尼斯畫派的色彩成就。
+							</p>
+							<img src="images/image32.png" class="pic01-image02" data-description="1518-1">
+							<p class="font01" data-description="1520">
+								《變形記》（英語:The Transfiguration）畫家在畫中運用了螺旋形造型技法，造成一種旋轉的運動感，三個門徒中姿態各不相同：雅各掩面伏地，彼得驚恐萬狀，而約翰則被驚嚇得暈頭轉向，都表明在神力面前無能為力。<br><br>
+								畫面劃分為天上和人間兩部分，據記載，畫的上部分出自拉斐爾本人手筆，而人間的人群則是以羅馬諾為首的學生們畫的。但據考證，畫面左下角的那位聖安德魯是拉斐爾所畫，他的姿態動作前伸轉首，身體的明暗對比強烈，這種大反差造型，為70年後的卡拉瓦喬所發展。畫面色彩鮮明、響亮且豐富，這表明他吸收了威尼斯畫派的色彩成就。
+							</p>
+							<img src="images/image33.png" class="pic01-image02" data-description="1520">
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+        <div class="section" id="section s3">
+            <div id="note-3">Palazzo Ducale</div>
+			<div class="alert alert-success alert-dismissible">
+				<strong>嘗試點擊建築物上的圓點</strong>
+				<button type="button" class="btn-colse florence-close" data-bs-dismiss="alert">
+					<img class="florence-close-img" src="images/x.svg">
+				</button>
+			  </div>
+			<div class="btn btn-primary primary01" data-bs-toggle="popover" title="圓頂" data-bs-content="圓頂（Dome）又稱穹頂或穹窿頂，是一種常見建築結構，外型類似一個空心球體的上半部。圓頂的橫切面並不一定是完整圓球型，亦可以呈橢圓形。用各種材質製造的圓頂在建築學中有悠久的歷史，可以回溯到史前時期。在古代近東的建築物和墳墓中，已經可以找到疊澀拱的身影。這是一種在兩根支撐柱上以磚石層層收進，直到中線合攏的半圓頂的拱，和圓頂已經相似。而大規模的製造真正圓頂的技術則出現在羅馬建築革命中。羅馬人利用圓頂來增加神廟和其他建築物，如萬神廟的內部空間。這個傳統在羅馬成為天主教中心後仍然有增無減，從拜占庭的宗教或世俗建築中可以看得出來。公元六世紀，隨著採用了革命性新技術三角穹頂的聖索菲亞大教堂（位於伊斯坦堡）的出現，可以說圓頂建築達到了一個高潮。而隨著穆斯林對薩珊王朝和拜占庭帝國的軍事勝利，圓頂建築也開始成為穆斯林建築的特色之一。	在俄羅斯的教堂建築中，東正教從拜占庭式建築中汲取了圓頂技術後，則出現了使用多個圓頂的獨特傳統。俄羅斯建築的圓頂常常鍍金或採用明亮的色彩，並呈蔥頭形狀，稱為蔥頭圓頂，和方形攢尖頂一樣是俄羅斯宗教建築的特色。	文藝復興時期，西歐再次發現了圓頂建築，圓頂建築在18世紀早期的巴洛克時期到達了第二個高峰。不少19世紀的大型公共建築都採用了圓頂設計，以示對羅馬元老院的追思。民居則少用圓頂，圓頂只見於巴洛克世紀最豪華的宮殿和房屋。"></div>
+			<div class="btn btn-primary primary02" data-bs-toggle="popover" title="公爵宮" data-bs-content="公爵宮（義大利語：Palazzo Ducale）是位於義大利馬爾凱大區城市烏爾比諾的一座文藝復興時期的建築，這座建築也是義大利最重要的古蹟建築之一，1998年被列入世界文化遺產名單。公爵宮建築由多位義大利建築師（可能包括多納托·伯拉孟特）為費德里科·達·蒙特費爾特羅修建於15世紀中葉，直到20世紀初期都作為政府辦公樓使用。在經過整修之後，公爵宮在1985年重新對遊客開放。國立馬爾凱美術館（Galleria Nazionale delle Marche）位於該宮殿中。"></div>
+			<div class="btn btn-primary primary03" data-bs-toggle="popover" title="烏比諾" data-bs-content="烏比諾（Urbino）是義大利馬爾凱地區一座城牆環繞的城市，佩薩羅西南方，坐落在一個傾斜的山坡，保留許多風景如畫的中世紀景色。由於該市引人矚目的獨立的文藝復興歷史文化遺產（尤其是1444年至1482年，在烏比諾公爵費德里科·達·蒙特費爾特羅的贊助之下），被列為世界遺產。這裡的烏比諾大學成立於1506年，是烏比諾總主教駐地。該市最著名的名勝為公爵宮（Palazzo Ducale），興建於15世紀下半葉。古羅馬時代，烏比諾是主要城鎮；中世紀曾受哥特戰爭波及。至文藝復興時期，烏比諾由蒙特費爾特羅家族控制，為烏比諾公國。於1626年，遭教皇國吞併。至1860年9月，被納入義大利王國一部分。1964年，義大利著名建築師吉卡洛·德·卡洛（義大利語：Giancarlo De Carlo）負責烏比諾市的第一個城市總體規劃，被視為是歷史遺產保護的典範。他規劃意向中烏比諾新區應該有許多高品質的現代建築，城市也具有現代精神。自1965起，他負責設計烏比諾新大學的校園和設施。在該項目中，校園與景觀融為一體，與群山融為一體。1989-1994年，德·卡洛設計了烏比諾的新總體規劃。"></div>
+			<img id="Urbino-img" src="images/build03.png">
+        </div>
+        <div class="section" id="section s4">
+			<div id="BigThree-div">
+				<div id="note-4">Three Masters of Art</div>
+				<div class="BigThree">
+					<div class="BigThree01">
+						<h2>DaVinci</h2>
+						<a href="DaVinci.html"><img src="images/pic01.png"></a>
+					</div>
+					<div class="BigThree02">
+						<h2>Michelangelo</h2>
+						<a href="Michelangelo.html"><img src="images/pic02.png"></a>
+					</div>
+					<div class="BigThree03">
+						<h2>Raphael</h2>
+						<a href="Raphael.html"><img src="images/pic03.png"></a>
+					</div>
+				</div>
+			</div>
+        </div>
+        <div class="section" id="section s5">
+            <div id="contactus">
+				<div id="note-5">Contact Me</div>
+				<input type="text" name="name" class="Name-text" placeholder="Name" autocomplete="off" data-description="0687">
+				<hr class="name-hr" data-description="0687">
+				<input type="text" name="email" class="Email-text" placeholder="Email" autocomplete="off">
+				<hr class="email-hr">
+				<input type="text" name="comments" class="ContactMe-text" placeholder="Message" autocomplete="off">
+				<hr class="text-hr">
+				<button class="send">Send</button>
+			</div>
+        </div>
+    </div>
+
+	<script src="assets/js/fullpage-03.js"></script>
+</body>
+
+</html>

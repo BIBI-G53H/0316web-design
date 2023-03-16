@@ -1,0 +1,521 @@
+/* 字體導入 */
+
+@font-face {
+  font-family:NewFont01;
+  src:url(../fonts/D1.ttf);
+}
+
+/* 網頁禁止反白 */
+
+html{
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -o-user-select:none;
+  user-select:none;
+}
+
+#fp-nav ul li .fp-tooltip{
+  color: #e3dccc !important;
+}
+
+span{
+  background-color: #e3dccc !important;
+}
+
+/*畫家菜單*/
+
+#painter-menu{
+  position: absolute;
+  z-index: 999;
+  width: 500px;
+  height: 80px;
+  top: 3%;
+  left: 2%;
+}
+
+.painter-menu-ul{
+  z-index: 999;
+  position: relative;
+  margin-right: 10px;
+  font-size: 25px;
+  text-decoration:none;
+  color: #AEB6BF;
+  background-color: rgb(0 0 0 / 0%) !important;
+  border-style:none !important;
+}
+
+.painter-menu-ulon{
+  z-index: 999;
+  position: relative;
+  margin-right: 10px;
+  font-size: 25px;
+  text-decoration:none;
+  color: #e3dccc;
+}
+
+.painter-menu-ul:hover{
+  color: #e3dccc;
+}
+
+.painter-menu-ulon:hover{
+  color: #e3dccc;
+}
+
+/* 彈出菜單 */
+
+#menu-btn{
+  border-style:none !important;
+  position: absolute;
+  z-index: 999;
+  color: #AEB6BF;
+  background-color: rgb(0 0 0 / 0%) !important;
+  left: 95%;
+  top: 3%;
+  font-size: 25px;
+}
+
+#menu-btn:hover{
+  color: #e3dccc;
+  font-size: 30px;
+}
+
+#close-btn{
+  border-style:none !important;
+  position: absolute;
+  z-index: 999;
+  color: #AEB6BF;
+  background-color: #141311 !important;
+  left: 95%;
+  top: 3%;
+  font-size: 25px;
+}
+
+#close-btn:hover{
+  color: #e3dccc;
+  font-size: 30px;
+}
+
+.offcanvas {
+  background-color:#141311 !important;
+}
+
+.offcanvas-end {
+  width:100% !important;
+}
+
+.offcanvas-start {
+  width:100% !important;
+}
+
+#menu-fontdiv{
+  position: relative;
+  top: 30%;
+  left: 40%;
+  height: 800px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.menu-font{
+  font-size: 100px;
+  color: #AEB6BF;
+  text-decoration:none;
+}
+
+.menu-font01{
+  position: relative !important;
+  left: -50% !important;
+}
+
+.menu-font:hover{
+  color: #e3dccc;
+}
+
+/* 左邊字條 */
+
+#note-1{
+  font-size: 80px;
+  position: absolute;
+  color: #e3dccc;
+  z-index: 999;
+  transform: rotate(90deg);
+  top: 45%;
+  left: -4%;
+}
+
+#note-2{
+  font-size: 80px;
+  position: absolute;
+  color: #e3dccc;
+  z-index: 999;
+  transform: rotate(90deg);
+  top: 45%;
+  left: -7%;
+}
+
+#note-3{
+  font-size: 80px;
+  position: absolute;
+  color: #e3dccc;
+  z-index: 999;
+  transform: rotate(90deg);
+  top: 45%;
+  left: -4.5%;
+}
+
+#note-4{
+  font-size: 80px;
+  position: absolute;
+  color: #e3dccc;
+  z-index: 999;
+  transform: rotate(90deg);
+  top: 45%;
+  left: -16%;
+}
+
+#note-5{
+  font-size: 80px;
+  position: absolute;
+  color: #e3dccc;
+  z-index: 999;
+  transform: rotate(90deg);
+  top: 45%;
+  left: -7.5%;
+}
+
+/* 區塊一 */
+
+#painter-img{
+  height: 100%;
+  filter: contrast(100%) brightness(50%);
+  /* width: 2000px; */
+}
+
+/* 時間表文字大小 */
+
+.font01{
+  font-size: 17px;
+  color: #e3dccc;
+}
+
+/* 時間表圖片尺寸 */
+
+.section-div{
+  width:100%;
+  height:100%;
+  background-color:#141311;
+  position: relative;
+  margin: 0;
+}
+
+#pic01{
+  max-width: 300px;
+  height: 373px;
+  width: 100%;
+  top: -300%;
+  left: 30%;
+  position: absolute;
+}
+
+.pic01-image01{
+  max-width: 800px;
+  width: 100%;
+  top: -300%;
+  left: 10%;
+  position: absolute;
+}
+
+.pic01-image02{
+  max-width: 300px;
+  width: 100%;
+  height: 360px;
+  top: -300%;
+  left: 30%;
+  position: absolute;
+}
+
+#pic01-image03{
+  max-width: 300px;
+  width: 100%;
+  top: -300%;
+  left: 30%;
+  position: absolute;
+}
+
+/* 佛羅倫斯 */
+
+#florence-img{
+  height: 100%;
+  filter: contrast(100%) brightness(50%);
+  /* width: 2000px; */
+}
+
+.alert-success{
+  color: #e3dccc !important;
+  background-color: rgb(0 0 0 / 25%) !important;
+  position: absolute !important;
+  z-index: 999;
+  border-style:none !important;
+  top: 10%;
+  left: 2%;
+}
+
+.florence-close{
+  position: absolute;
+  background-color: rgb(0 0 0 / 0%) !important;
+  border-style:none !important;
+  color: rgb(0 0 0 / 0%) !important;
+  left: 85%;
+  top: 23%;
+}
+
+.florence-close-img{
+  width: 30px;
+}
+
+.btn-primary{
+  position: absolute !important;
+  z-index: 999 !important;
+  width:30px !important;
+  height:30px !important;
+  border-radius:999em !important;
+  background-color: #AEB6BF !important;
+  border-style:none !important;
+  opacity: 0.7;
+}
+
+.primary01{
+  top: 50%;
+  left: 86%;
+}
+
+.primary02{
+  top: 75%;
+  left: 60%;
+}
+
+.primary03{
+  top: 40%;
+  left: 57%;
+}
+
+.primary04{
+  top: 63%;
+  left: 15%;
+}
+
+/* 三巨頭 */
+
+#BigThree-div{
+  background-color: #141311;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.BigThree{
+  width: 2000px;
+  height: 100%;
+  float: right;
+  position: relative;
+  top:0%;
+  left:-0%;
+}
+
+.BigThree01{
+  width: 350px;
+  height: 100%;
+  position: relative;
+  float: right;
+  margin-right: 150px;
+  transform:scale(1,1);transition: all 1s ease-out;
+}
+
+.BigThree01 h2{
+  position: absolute;
+  font-size: 80px;
+  transform: rotate(90deg);
+  top: 50%;
+  left: -28%;
+  opacity: 0;
+  color: #e3dccc;
+}
+
+.BigThree01:hover h2{
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.BigThree01 img{
+  width: 370px;
+  height: 100%;
+}
+
+.BigThree02{
+  width: 350px;
+  height: 100%;
+  position: relative;
+  float: right;
+  margin-right: 150px;
+  transform:scale(1,1);transition: all 1s ease-out;
+}
+
+.BigThree02 h2{
+  position: absolute;
+  font-size: 80px;
+  transform: rotate(90deg);
+  top: 50%;
+  left: -54%;
+  opacity: 0;
+  color: #e3dccc;
+
+}
+
+.BigThree02:hover h2{
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.BigThree02 img{
+  width: 370px;
+  height: 100%;
+}
+
+.BigThree03{
+  width: 350px;
+  height: 100%;
+  position: relative;
+  float: right;
+  margin-right: 150px;
+  transform:scale(1,1);transition: all 1s ease-out;
+}
+
+.BigThree03 h2{
+  position: absolute;
+  font-size: 80px;
+  transform: rotate(90deg);
+  top: 50%;
+  left: -26%;
+  opacity: 0;
+  color: #e3dccc;
+}
+
+.BigThree03:hover h2{
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.BigThree03 img{
+  width: 370px;
+  height: 100%;
+}
+
+.BigThree01note{
+  color:rgb(0 0 0 / 0%) !important;
+}
+
+.BigThree01:hover{
+  transform:scale(1.1,1.1);
+}
+
+.BigThree02:hover{
+  transform:scale(1.1,1.1);
+}
+
+.BigThree03:hover{
+  transform:scale(1.1,1.1);
+}
+
+/* 聯繫我們 */
+
+#contactus{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #141311;
+}
+
+.Name-text{
+  position: absolute !important;
+  width: 1250px;
+  height: 100px;
+  border-radius: 0% !important;
+  background-color: rgb(0 0 0 / 1%) !important;
+  border-style:none !important;
+  color: #e3dccc !important;
+  font-size: 48px;
+  top: 30%;
+  left: 30%;
+}
+
+.Email-text{
+  position: absolute !important;
+  width: 1250px;
+  height: 100px;
+  border-radius: 0% !important;
+  background-color: rgb(0 0 0 / 1%) !important;
+  border-style:none !important;
+  color: #e3dccc !important;
+  font-size: 48px;
+  top: 30%;
+  left: 55%;
+}
+
+.ContactMe-text{
+  position: absolute !important;
+  width: 1250px;
+  height: 100px;
+  border-radius: 0% !important;
+  background-color: rgb(0 0 0 / 1%) !important;
+  border-style:none !important;
+  color: #e3dccc !important;
+  font-size: 48px;
+  top: 50%;
+  left: 30%;
+}
+
+.name-hr{
+  width:425px;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  color: #AEB6BF;
+}
+
+.email-hr{
+  width:425px;
+  position: absolute;
+  top: 40%;
+  left: 55%;
+  color: #AEB6BF;
+}
+
+.text-hr{
+  width:900px;
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  color: #AEB6BF;
+}
+
+.send{
+  font-size: 48px;
+  position: absolute !important;
+  background-color: rgb(0 0 0 / 1%) !important;
+  border-style:none !important;
+  color: #AEB6BF;
+  left: 30%;
+  top: 70%;
+}
+
+.send:hover{
+  color: #e3dccc;
+}
+
+
+
+
+
+
+
+

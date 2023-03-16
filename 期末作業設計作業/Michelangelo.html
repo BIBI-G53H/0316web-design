@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michelangelo | 米開朗基羅</title>
+	<link rel="icon" href="images/brush.svg" type="image/x-icon">
+    <!-- CSS連結 -->
+    <link rel="stylesheet" href="assets/css/fullpage.css">
+	<link rel="stylesheet" href="assets/css/Michelangelo-style.css">
+	<link rel="stylesheet" href="assets/css/Michelangelo-schedule.css">
+
+	<!-- FullPage連結 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.9/fullpage.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+
+	<!-- Bootstrap連結 -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+	<!-- 畫家菜單 -->
+	<div id="painter-menu"> 
+		<a class="painter-menu-ulon" href="#">Michelangelo</a>
+		<button class="painter-menu-ul" data-bs-toggle="offcanvas" data-bs-target="#demo01">Painter</button>
+		<a class="painter-menu-ul" href="#">About</a>
+	</div>
+
+	<div class="offcanvas offcanvas-start" id="demo01">
+		<div class="offcanvas-header">
+			<button type="button" id="close-btn" data-bs-dismiss="offcanvas">Close</button>
+		</div>
+		<div id="offcanvas-body01">
+			<div id="menu-fontdiv"> 
+				<a class="menu-font" href="DaVinci.html">DaVinci</a>
+				<a class="menu-font menu-font01" href="Michelangelo.html">Michelangelo</a>
+				<a class="menu-font" href="Raphael.html">Raphael</a>
+			</div>
+		</div>
+	</div>
+	<!-- 彈出菜單 -->
+	<div class="offcanvas offcanvas-end" id="demo">
+		<div class="offcanvas-header">
+			<button type="button" id="close-btn" data-bs-dismiss="offcanvas">Close</button>
+		</div>
+		<div id="offcanvas-body01">
+			<div id="menu-fontdiv"> 
+				<a class="menu-font" href="Home.html">Home</a>
+				<a class="menu-font" href="Order.html">Order</a>
+				<a class="menu-font" href="#">About</a>
+			</div>
+		</div>
+	</div>
+	<button id="menu-btn" data-bs-toggle="offcanvas" data-bs-target="#demo">Menu</button>
+	<!-- 整頁式網頁 -->
+    <div id="fullpage">
+        <div class="section" id="section s1">
+			<div class="section-div">
+				<div id="note-1">Michelangelo</div>
+				<img id="painter-img" src="images/image16.png">
+			</div>
+        </div>
+        <div class="section" id="section s2">
+			<!-- 時間表 -->
+			<div class="section-div">
+				<div id="note-2">SCHEDULE</div>
+				<div class="flex-parent">
+					<div class="input-flex-container">
+						<input type="radio" name="timeline-dot" data-description="1475"checked>
+						<div class="dot-info" data-description="1475">
+							<span01 class="year">1475</span>
+							<span01 class="label">Michelangelo</span>
+						</div>
+						<input type="radio" name="timeline-dot" data-description="1487">
+						<div class="dot-info" data-description="1487">
+							<span01 class="year">1487</span>
+							<span01 class="label">Torment of SanAntonio</span>
+						</div>
+						<input type="radio" name="timeline-dot" data-description="1494">
+						<div class="dot-info" data-description="1494">
+							<span01 class="year">1494</span>
+							<span01 class="label">St. Petronius</span>
+						</div>
+						<input type="radio" name="timeline-dot" data-description="1501">
+						<div class="dot-info" data-description="1501">
+							<span01 class="year">1501</span>
+							<span01 class="label">Bury</span>
+						</div>
+						<input type="radio" name="timeline-dot" data-description="1504">
+						<div class="dot-info" data-description="1504">
+							<span01 class="year">1504</span>
+							<span01 class="label">David</span>
+						</div>
+						<input type="radio" name="timeline-dot" data-description="1510">
+						<div class="dot-info" data-description="1510">
+							<span01 class="year">1510</span>
+							<span01 class="label">The Creation of Adam</span>
+						</div>
+						<input type="radio" name="timeline-dot" data-description="1512">
+						<div class="dot-info" data-description="1512">
+							<span01 class="year">1512</span>
+							<span01 class="label">Adam and Eve</span>
+						</div>
+						<input type="radio" name="timeline-dot" data-description="1513">
+						<div class="dot-info" data-description="1513">
+							<span01 class="year">1513</span>
+							<span01 class="label">Rebellious Slave</span>
+						</div>
+						<input type="radio" name="timeline-dot" data-description="1515">
+						<div class="dot-info" data-description="1515">
+							<span01 class="year">1515</span>
+							<span01 class="label">Moses</span>
+						</div>
+						<input type="radio" name="timeline-dot" data-description="1540">
+						<div class="dot-info" data-description="1540">
+							<span01 class="year">1540</span>
+							<span01 class="label">Madonna dei Fusi</span>
+						</div>
+						<input type="radio" name="timeline-dot" data-description="1545">
+						<div class="dot-info" data-description="1545">
+							<span01 class="year">1545</span>
+							<span01 class="label">Leda and the Swan</span>
+						</div>
+						<input type="radio" name="timeline-dot" data-description="1550">
+						<div class="dot-info" data-description="1550">
+							<span01 class="year">1550</span>
+							<span01 class="label">Martyrdom of St.Peter</span>
+						</div>
+
+						<div id="timeline-descriptions-wrapper">
+							<p class="font01" data-description="1475">
+								米開朗基羅（義大利語：Michelangelo）全名米開朗基羅·迪·洛多維科·博納羅蒂·西蒙尼，是義大利文藝復興時期傑出的通才、雕塑家、建築師、畫家、哲學家和詩人，與達文西和拉斐爾並稱「文藝復興藝術三傑」，以人物「健美」著稱，即使女性的身體也描畫的肌肉健壯。<br><br>
+                                他的雕刻作品「大衛像」舉世聞名，麥第奇家族墓前的「晝」、「夜」、「晨」、「昏」四座雕像構思新奇，此外著名的雕塑作品還有「摩西像」、「大奴隸」等。他最著名的繪畫作品是梵蒂岡西斯汀小堂的《創世紀》天頂畫和壁畫《最後的審判》。他還設計和初步建造了羅馬聖伯多祿大殿，設計建造了教宗儒略二世的陵墓。米開朗基羅脾氣暴躁，不合群，和達文西與拉斐爾都合不來，經常和他的恩主頂撞，但他一生追求藝術的完美，堅持自己的藝術思路。
+							</p>
+							<img src="images/pic02.png" id="pic01" data-description="1475">
+                            <p class="font01" data-description="1487">
+								《聖安東尼的折磨》（英語:Torment of SanAntonio）是已知最早的米開朗基羅畫作，是馬丁·尚高爾12或13歲時的著名版畫的近似複製品。它現在在德克薩斯州沃思堡的金貝爾藝術博物館。<br><br>
+                                它顯示了常見的中世紀主題，包括在黃金傳說和其他來源中，聖安東尼（公元 251 – 356 年）在沙漠中被惡魔襲擊，他抵制了惡魔的誘惑；這聖安東尼的誘惑（或“審判”）是該主題的更常見名稱。但這部作品顯然顯示了後來的一集，通常在天使支持下在沙漠中飛行的聖安東尼在半空中被魔鬼伏擊。
+							</p>
+							<img src="images/image12.png" class="pic01-image02" data-description="1487">
+                            <p class="font01" data-description="1494">
+								《聖白托略》（英語:Saint Petronius）是義大利文藝復興大師米開朗基羅的一件早期大理石雕塑作品，創作於1494–1495年。雕像描繪的是公元5世紀的博洛尼亞主教聖白托略，高度為 64 厘米，位於義大利北部博洛尼亞的聖多明我聖殿內聖多明我小堂的聖多明我墓第四層的左側第二個人像。<br><br>
+                                聖白托略是博洛尼亞的主保聖人，雕像描繪他手持博洛尼亞的城市模型，包括帶紋章的城牆和傾斜的塔樓。雕像呈現出的層層衣物交疊的旋動姿態，以及人物生動的表情，預告了作者未來更具野心的雕塑作品，如《大衛》。
+							</p>
+							<img src="images/image13.png" class="pic01-image02" data-description="1494">
+                            <p class="font01" data-description="1501">
+								《埋葬》（英語:Bury）一般認為是義大利畫家米開朗基羅的未完成的蛋彩畫，顯示耶穌受難後被運送到其墳墓。現藏於倫敦的英國國家美術館。
+							</p>
+							<img src="images/image14.png" class="pic01-image02" data-description="1501">
+							<p class="font01" data-description="1504">
+								《大衛像》（英語:David）是文藝復興時代米開朗基羅的傑作，於1501年至1504年雕成。雕像為白色大理石雕成的站立的男性裸體，高5.17-公尺（17英尺0英寸），重約6噸，一個佛羅倫薩藝術中最受歡迎的主題。用以表現聖經中的猶太英雄大衛王。原作目前置放於義大利佛羅倫斯美術學院，每年都會吸引約120萬人前去參觀。<br><br>
+								由於它所代表的人物的性質，這座雕像很快就成為了捍衛公民自由的象徵，佛羅倫斯共和國是一個獨立的城邦，四面受到更強大的敵對國家和麥第奇家族的霸權的威脅 . 大衛的眼睛帶著警告的目光，注視著麥第奇家族居住的羅馬。
+							</p>
+							<img src="images/image15.png" class="pic01-image02" data-description="1504">
+							<p class="font01" data-description="1510">
+								《創造亞當》（英語:The Creation of Adam）是米開朗基羅創作的西斯汀小堂天頂畫《創世紀》的一部分，創作於1511至1512年間的文藝復興全盛期。這幅壁畫描繪的是《聖經·創世紀》中上帝創造人類始祖亞當的情形，按照事情發展順序是創世紀天頂畫中的第四幅。作為世界名畫之一，後世出現了許多《創造亞當》的仿作。<br><br>
+								畫中右側穿著飄逸長袍的白鬍鬚老者是上帝，亞當則位於畫面左側，通身赤裸。上帝的右臂舒張開來，生命之火從他的指頭中傳遞給了亞當，而後者則以同樣的方式舒展左臂，含蓄地指出人類是按照上帝的模樣來創造的。關於上帝周圍的形象有許多臆測，例如抱著上帝左臂的可能是夏娃，但也有可能是聖母瑪利亞，或者可能只是一個單純的女性天使。
+							</p>
+							<img src="images/image16.png" class="pic01-image01" data-description="1510">
+							<p class="font01" data-description="1512">
+								《逐出伊甸園》（英語:The Creation of Adam）為西斯廷教堂天頂畫部分之一。把亞當、夏娃偷吃禁果和他們被逐出伊甸園兩個情節畫在一幅畫上，中間用智慧樹與蛇分開，構圖勻稱協調。左邊形體健美的夏娃居於中心地位，她大膽地摘取禁果表現了 對命運的挑戰。這個形象是畫家的傑作之一，整個樂園之美是通過這一形象體現出來的。她既無肉慾又不貪婪，從她的臉上我們感到了人物的思想、性格和意志。右邊的亞當成為視覺的焦點，他的手勢在試圖保護自己的妻子，沒有後悔和羞恥。畫家按照自己的方式處理畫面，強調了人物高傲、獨立自主的感情。<br><br>
+								上帝創造亞當夏娃。告訴他們園中一切果子都可以吃，唯有分別善惡樹上的果子不能吃。魔鬼化做蛇去引誘他們吃了那樹的果子。他們才知道自己赤身裸體，便用無花果葉子編成裙子遮醜。上帝知道後非常震怒，於是將他們趕出了樂園。這就是基督教中所說的原罪。
+							</p>
+							<img src="images/image17.png" class="pic01-image01" data-description="1512">
+							<p class="font01" data-description="1513">
+								《叛逆的奴隸》（英語:Rebellious Slave）又名《被縛的奴隸》，是義大利文藝復興全盛期藝術大師米開朗基羅的一件大理石雕塑，高2.15米，創作於1513年，現藏於巴黎羅浮宮。<br><br>
+								描繪的對象試圖從束縛中掙扎出來，他的雙手被捆在背後，軀幹扭曲，頭部扭動，給人的印象是，他正在抬起肩膀和膝蓋，朝觀眾走來。<br><br>
+								藝術成了囚犯。特別是《叛逆的奴隸》，可能代表雕塑或建築。對於其他的象徵意義和哲學性質，也有所討論。還有人認為與米開朗基羅的個人生活和他的虐戀傾向有關。
+							</p>
+							<img src="images/image18.png" class="pic01-image02" data-description="1513">
+							<p class="font01" data-description="1515">
+								《摩西》（英語:Moses）是義大利文藝復興全盛期藝術大師米開朗基羅創作的一尊大理石雕塑，位於羅馬聖伯多祿鎖鏈堂（Basilica di San Pietro in Vincoli）。1505年，儒略二世為裝飾自己的陵墓而向米開朗基羅訂製雕塑。米開朗基羅創作的聖經人物摩西頭上長角，依據是當時的聖經拉丁文譯本武加大譯本的出谷紀34章中的翻譯。<br><br>
+								摩西攜帶石版第二次上西奈山，耶和華神在雲中降臨，和摩西同在，要以色列人謹守祂的吩咐。摩西再次待在山上四十晝夜，當他拿著兩塊法版下山時，「不知道自己的面皮因耶和華和他說話就發了光」（出埃及記34:29）。舊約的希臘文七十士譯本把「發光」譯成「滿有榮耀」，雖然並未忠於希伯來文原意，但至少可以讓人意會，看出摩西的臉在「發光」。
+							</p>
+							<img src="images/image19.png" class="pic01-image02" data-description="1515">
+							<p class="font01" data-description="1540">
+								《耶穌受難》（英語:Crucifixion）特指耶穌生前的最後一段時期，他造訪耶路撒冷，在街道遊行，最後晚餐，最終在耶路撒冷被逮捕，判罪，走上苦路，在十字架上被處死。<br><br>
+								耶穌在死亡前承受的各種痛苦，成為基督教神學的中心教義之一，以聖週來紀念耶穌受難。甚至回教的《可蘭經》中也提到了耶穌受難。
+							</p>
+							<img src="images/image20.png" class="pic01-image02" data-description="1540">
+							<p class="font01" data-description="1545">
+								《保羅歸信》（英語:Conversion of Saul）基督像在壁畫的左上角。他正在戲劇性地進入場景，周圍環繞著光暈和天軍的安全細節。這些天使中的一些人敬畏和震驚地看著事件的發生，而另一些天使則充當了天上和神聖事物與下面塵世事物之間的保護屏障。一束光從基督身上照射到一群人身上。這個小組在他們的姿勢和表情上都非常戲劇化。這些世俗人物中最引人注目的是保羅本人。保羅有一張老人的臉，儘管“我們知道，米開朗基羅也很清楚保羅在去大馬士革的路上被召喚是在他大約30歲時發生的。”保羅的臉反映了米開朗基羅的臉，此時的米開朗基羅是一位同樣為信仰而煩惱的老人。保羅的形象代表“人類需要更大的光”。圍繞著保羅的是一個由同伴組成的三角形組合，當他躺在地上時，他們試圖幫助他。他舉起一隻手來保護自己免受基督的傷害，臉上流露出一種奇怪的不安和恐懼。這幅畫的大部分元素都指向掃羅的形像作為構圖的主要焦點。向下傾斜的山丘，光芒四射的光束，以及圍繞著保羅的人物分組，讓觀眾清楚地知道他是這個人物沉重的作品中最重要的人。
+							</p>
+							<img src="images/image21.png" class="pic01-image02" data-description="1545">
+							<p class="font01" data-description="1550">
+								《聖彼得受難》（英語:Martyrdom of St.Peter）是米開朗基羅·博納羅蒂（約 1546-1550 年）的一幅壁畫。它位於羅馬梵蒂岡城梵蒂岡宮的團保利納。這是米開朗基羅創作的最後一幅壁畫。<br><br>
+								這位藝術家描繪了聖彼得被羅馬士兵抬上十字架的那一刻。米開朗基羅將注意力集中在對痛苦和苦難的描繪上。在場之人的臉色，明顯是苦澀的。教皇保羅在 1541 年委託米開朗基羅創作了這幅壁畫，並在他的無伴奏合唱 Paolina 中揭開了它的面紗。
+							</p>
+							<img src="images/image22.png" class="pic01-image02" data-description="1550">
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+        <div class="section" id="section s3">
+            <div id="note-3">Rome</div>
+			<div class="alert alert-success alert-dismissible">
+				<strong>嘗試點擊建築物上的圓點</strong>
+				<button type="button" class="btn-colse florence-close" data-bs-dismiss="alert">
+					<img class="florence-close-img" src="images/x.svg">
+				</button>
+			  </div>
+			<div class="btn btn-primary primary01" data-bs-toggle="popover" title="聖雷多聖母堂" data-bs-content="聖雷多聖母堂是義大利羅馬的一座16世紀教堂，位於同名廣場26號，就在圖拉真圓柱街對面，靠近巨大的維托里亞諾。1500年聖年後，教宗亞歷山大六世准許麵包師行會（Sodalizio dei Fornai）在一個小堂的原址上建造教堂。1507年，小安東尼奧·達·桑加羅（Antonio Sangallo il Giovane）開始動工興建，呈八角形平面，穹頂則是由杜卡（Jacopo del Duca）在75年後完成。"></div>
+			<div class="btn btn-primary primary02" data-bs-toggle="popover" title="保守宮" data-bs-content="保守宮位於羅馬的卡比托利歐廣場，元老宮之右側，與新宮相對。保守宮和新宮，連同 羅馬國家檔案館，都是卡比托利歐博物館的展廳。保守宮得名於這裡在中世紀曾是市政官員（Conservatori）駐地，他和參議院（senato）一起管理這座永恆之城。米開朗琪羅受委託負責整個修繕工作，他設計了新的外觀，但沒能看到完成就去世了。這項工作由圭多·圭代蒂（Guido Guidetti）繼續進行，1568年由賈科莫·德拉·博塔完成，他們忠實地遵循了米開朗基羅的圖紙。"></div>
+			<div class="btn btn-primary primary03" data-bs-toggle="popover" title="維托里亞諾" data-bs-content="維托里亞諾，又稱為維克多艾曼紐二世紀念堂。是位於義大利羅馬威尼斯廣場和卡比托利歐山之間，用以紀念統一義大利的第一位國王維托里奧·埃馬努埃萊二世。由朱塞佩·薩科尼設計於1895年，雕塑由全義大利的雕塑家雕刻。 1911年開工成於1935年完工。紀念堂用布雷西亞的純白大理石建造，設有宏偉的階梯，高大的科林斯圓柱，噴泉，巨大的埃馬努埃萊二世騎馬雕像，和兩尊雙輪戰車上的女神維多利亞雕像。這座建築寬135米，高70米。如果包括雙輪戰車和維多利亞，高度達到81米。建築的底層設有義大利統一博物館。"></div>
+			<img id="Rome-img" src="images/build02.png">
+        </div>
+        <div class="section" id="section s4">
+			<div id="BigThree-div">
+				<div id="note-4">Three Masters of Art</div>
+				<div class="BigThree">
+					<div class="BigThree01">
+						<h2>DaVinci</h2>
+						<a href="DaVinci.html"><img src="images/pic01.png"></a>
+					</div>
+					<div class="BigThree02">
+						<h2>Michelangelo</h2>
+						<a href="Michelangelo.html"><img src="images/pic02.png"></a>
+					</div>
+					<div class="BigThree03">
+						<h2>Raphael</h2>
+						<a href="Raphael.html"><img src="images/pic03.png"></a>
+					</div>
+				</div>
+			</div>
+        </div>
+        <div class="section" id="section s5">
+            <div id="contactus">
+				<div id="note-5">Contact Me</div>
+				<input type="text" name="name" class="Name-text" placeholder="Name" autocomplete="off" data-description="0687">
+				<hr class="name-hr" data-description="0687">
+				<input type="text" name="email" class="Email-text" placeholder="Email" autocomplete="off">
+				<hr class="email-hr">
+				<input type="text" name="comments" class="ContactMe-text" placeholder="Message" autocomplete="off">
+				<hr class="text-hr">
+				<button class="send">Send</button>
+			</div>
+        </div>
+    </div>
+
+	<script src="assets/js/fullpage-02.js"></script>
+</body>
+
+</html>

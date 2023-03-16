@@ -1,0 +1,633 @@
+/* 字體導入 */
+
+@font-face {
+    font-family:NewFont01;
+    src:url(../fonts/D1.ttf);
+  }
+    
+body{
+    width: 1900px;
+    margin: 0;
+}
+      
+/* 至頂菜單 */
+  
+#menu {
+  width: 1900px;
+  height: 85px;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 999;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+  
+#menu-ul {
+  width: 800px;
+  height: 21px;
+  top: 15%;
+  right: 0%;
+  position: absolute;
+}
+
+#home{
+  width: 200px;
+  height: 21px;
+  top: 35%;
+  left: 0%;
+  position: absolute;
+}
+
+/* 菜單中文字變色 */
+  
+.a1{
+  padding:50px;
+  font-size: 25px;
+  font-family: NewFont01;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  cursor: pointer;
+  transition: all .3s linear;
+  color: #000000;
+}
+  
+.a1:hover{
+  color: #6A70E9;
+}
+
+#home-font{
+  padding:50px;
+  font-size: 25px;
+  font-family: NewFont01;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  cursor: pointer;
+  transition: all .3s linear;
+  color: #000000;
+}
+
+#home-font:hover{
+  color: #6A70E9;
+}
+
+#box01{
+    width: 1900px;
+    height: 150px;
+    position: relative;
+    background-color: #000000ea;
+}
+#box01-font{
+    font-size: 25px;
+    color: #f9f9f9;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+}
+
+#box02{
+    width: 1900px;
+    height: 1500px;
+    background-color: #f9f9f9;
+}
+
+/* 選購 */
+
+#box02-1{
+    width: 950px;
+    height: 1500px;
+    position: relative;
+    float: left;
+    background-color: #f9f9f9;
+}
+
+#box02-1-font{
+    top:5%;
+    left: 20%;
+    font-size: 20px;
+    position: absolute;
+}
+
+/* 選購內容分界線 */
+
+#box02-1-hr01{
+    width: 500px;
+    top: 8%;
+    left: 20%;
+    position: absolute;
+}
+
+#box02-1-hr02{
+    width: 500px;
+    top: 24%;
+    left: 20%;
+    position: absolute;
+}
+
+#box02-1-hr03{
+    width: 500px;
+    top: 40%;
+    left: 20%;
+    position: absolute;
+}
+
+#box02-1-hr04{
+    width: 500px;
+    top: 56%;
+    left: 20%;
+    position: absolute;
+}
+
+#box02-1-hr05{
+    width: 500px;
+    top: 72%;
+    left: 20%;
+    position: absolute;
+}
+
+#box02-1-hr06{
+    width: 500px;
+    top: 88%;
+    left: 20%;
+    position: absolute;
+}
+
+/* 智能建築工具 */
+
+#commodity00{
+    width: 100px;
+    height: 100px;
+    top: 13%;
+    left: 20%;
+    position: absolute;
+    background-color: #EBE9E9;
+}
+
+#commodity00-fontA{  
+    top: 13%;
+    left: 35%;
+    position: absolute;
+    font-size: 18px;
+}
+
+#commodity00-fontB{
+    top: 16.5%;
+    left: 35%;
+    position: absolute;
+    font-size: 12px;
+    color: #4A4A4A;
+}
+
+#commodity00-fontC{  
+    top: 16%;
+    left: 60%;
+    position: absolute;
+    font-size:18px;
+    color: #000000;
+}
+
+#commodity00countId{
+    width: 50px;
+    height: 50px;
+    top: 15%;
+    left: 50%;
+    position: absolute;
+    border:none;
+    text-align: center;
+    background-color: #EBE9E9;
+}
+/* 智能建築材料包 */
+
+#commodity01{
+    width: 100px;
+    height: 100px;
+    top: 29%;
+    left: 20%;
+    position: absolute;
+    background-color: #EBE9E9;
+}
+#commodity01-fontA{  
+    top: 29%;
+    left: 35%;
+    position: absolute;
+    font-size:18px;
+}
+
+#commodity01-fontB{  
+    top: 32.5%;
+    left: 35%;
+    position: absolute;
+    font-size: 12px;
+    color: #4A4A4A;
+}
+
+#commodity01-fontC{  
+    top: 32%;
+    left: 60%;
+    position: absolute;
+    font-size: 18px;
+    color: #000000;
+}
+
+#commodity01countId{
+    width: 50px;
+    height: 50px;
+    top: 31%;
+    left: 50%;
+    position: absolute;
+    border: none;
+    text-align: center;
+    background-color: #EBE9E9;
+}
+
+/* 智能保固合約 */
+
+#commodity02{
+    width: 100px;
+    height:100px;
+    background-color: #EBE9E9;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    
+}
+
+#commodity02-fontA{  
+    top: 45%;
+    left: 35%;
+    position: absolute;
+    font-size: 18px;
+}
+
+#commodity02-fontB{  
+    top: 48.5%;
+    left: 35%;
+    position: absolute;
+    font-size: 12px;
+    color: #4A4A4A;
+}
+
+#commodity02-fontC{  
+    top: 48%;
+    left: 60%;
+    position: absolute;
+    font-size: 18px;
+    color: #000000;
+}
+
+#commodity02countId{
+    width: 50px;
+    height: 50px;
+    top: 47%;
+    left: 50%;
+    position: absolute;
+    border: none;
+    text-align: center;
+    background-color: #EBE9E9;
+}
+
+/* VIP會員 */
+
+#commodity03-fontA{  
+    top: 60%;
+    left: 25%;
+    position: absolute;
+    font-size: 18px;
+}
+
+#commodity03-fontB{  
+    top: 62%;
+    left: 25%;
+    position: absolute;
+    font-size: 12px;
+    color: #4A4A4A;
+}
+
+
+#commodity03countId{
+    width: 15px;
+    height: 15px;
+    top: 60%;
+    left: 22%;
+    position: absolute;
+}
+
+/* 會員資訊 */
+
+#commodity04-fontA{  
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    font-size: 18px;
+}
+
+#commodity04-fontB{  
+    top: 62%;
+    left: 50%;
+    position: absolute;
+    font-size: 12px;
+    color: #4A4A4A;
+}
+
+#commodity04countId{
+    width: 15px;
+    height: 15px;
+    top: 60%;
+    left: 47%;
+    position: absolute;
+    background-color: #EBE9E9;
+}
+
+/* 額外贊助 */
+
+#commodity05-fontA{  
+    top: 68%;
+    left: 25%;
+    position: absolute;
+    font-size: 18px;
+}
+
+#commodity05countId{
+    width: 250px;
+    height: 20px;
+    top: 68%;
+    left:37%;
+    position: absolute;
+    border:none;
+    text-align: center;
+    background-color: #EBE9E9;
+}
+
+/* 姓氏 */
+
+#commodity06-fontA{  
+    top: 75%;
+    left: 25%;
+    position: absolute;
+    font-size: 18px;
+}
+
+#commodity06countId{
+    width: 100px;
+    height: 20px;
+    top: 75%;
+    left: 31%;
+    position: absolute;
+    border: none;
+    text-align: center;
+    background-color: #EBE9E9;
+}
+
+/* 名字 */
+
+#commodity07-fontA{  
+    top: 75%;
+    left: 45%;
+    position: absolute;
+    font-size: 18px;
+}
+
+#commodity07countId{
+    width: 100px;
+    height: 20px;
+    top: 75%;
+    left: 51%;
+    position: absolute;
+    border: none;
+    text-align: center;
+    background-color: #EBE9E9;
+}
+    
+/* 電話 */
+
+#commodity08-fontA{  
+    top: 78%;
+    left: 25%;
+    position: absolute;
+    font-size: 18px;
+}
+
+#commodity08countId{
+    width: 150px;
+    height: 20px;
+    top: 78%;
+    left: 31%;
+    position: absolute;
+    border: none;
+    text-align: center;
+    background-color: #EBE9E9;
+}
+
+/* 電子郵箱 */
+
+#commodity09-fontA{  
+    top: 81%;
+    left: 25%;
+    position: absolute;
+    font-size: 18px;
+}
+#commodity09countId{
+    width: 250px;
+    height: 20px;
+    top: 81%;
+    left: 35%;
+    position: absolute;
+    border: none;
+    text-align: center;
+    background-color: #EBE9E9;
+}
+
+/* VISA卡號 */
+
+#commodity10-fontA{  
+    top: 84%;
+    left: 25%;
+    position: absolute;
+    font-size: 18px;
+}
+
+#commodity10countId{
+    width: 150px;
+    height: 20px;
+    top: 84%;
+    left: 35%;
+    position: absolute;
+    border: none;
+    text-align: center;
+    background-color: #EBE9E9;
+}
+
+/* 安全碼 */
+
+#commodity11-fontA{  
+    top: 84%;
+    left: 53%;
+    position: absolute;
+    font-size: 18px;
+}
+
+#commodity11countId{
+    width: 100px;
+    height: 20px;
+    top: 84%;
+    left: 60%;
+    position: absolute;
+    border: none;
+    text-align: center;
+    background-color: #EBE9E9;
+}
+
+/* 送出訂單 */
+
+#btn{
+    width: 300px;
+    height: 50px;
+    top: 90%;
+    left: 30%;
+    position: absolute;
+}
+
+/* 明細 */
+
+#box02-2{
+    width: 950px;
+    height: 1500px;
+    position: relative;
+    float: left;
+    background-color: #EBE9E9;
+}
+
+#box02-2-font{
+    top:5%;
+    left: 20%;
+    font-size: 20px;
+    position: absolute;
+}
+
+/* 明細區塊 */
+
+#out{
+    width: 500px;
+    height: 720px;
+    top: 8.5%;
+    left: 20.15%;
+    position: relative;
+    background-color: #F9F9F9;
+}
+
+.out-fontA{
+    position: relative;
+    font-size: 18px;
+    margin: 10px;
+}
+
+#out-fontB{
+    top: 70%;
+    position: absolute;
+    font-size: 30px;
+    margin: 10px;
+}
+
+#out-fontC{
+    top: 70%;
+    left: 50%;
+    position: absolute;
+    font-size: 30px;
+    margin: 10px;
+}
+
+#out-hr{
+    width: 500px;
+    top: 65%;
+    position: absolute;
+}
+
+#User{
+    top: 13%;
+    left: 15%;
+    position: absolute;
+    font-size: 18px;
+    margin: 10px;
+}
+
+#UserText{
+    top: 17.5%;
+    left: 16.5%;
+    position: absolute;
+    font-size: 18px;
+    margin: 10px;
+}
+
+#totalId{
+    top: 70.5%;
+    left: 23%;
+    position: absolute;
+    font-size: 30px;
+    margin: 10px;
+}
+
+/* 最底層內容區塊 */
+
+footer{
+    width: 1900px;
+    height: 350px;
+    background: #E1E1E1;
+}
+  
+#box05{
+    width: 468px;
+    height: 108px;
+    top: 20%;
+    left: 14%;
+    position: relative;
+    font-size: 14px;
+    line-height: 24px;
+    float: left;
+    font-family: NewFont01;
+}
+  
+#box05-JH{
+    width: 570px;
+    height: 53px;
+    top: 50%;
+    position: relative;
+    font-size: 12px;
+}
+  
+#box05-1{
+    width: 498px;
+    height: 102px;
+    top: 20%;
+    left: 40%;
+    position: relative;
+    font-size: 14px;
+    line-height: 24px;
+    text-align:right;
+    float: left;
+    font-family: NewFont01;
+}
+  
+.box05-1-images{
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: 85%;
+    position: relative;
+    margin-right: 15px;
+    float: left;
+}
+  
+.box05-1-Logo{
+    width: 30px;
+    height: 30px;
+}
+  
+#box05-1-CU{
+    width: 498px;
+    height: 102px;
+    top: 80%;
+    position: relative;
+}

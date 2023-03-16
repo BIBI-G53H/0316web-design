@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*A */
+#section2 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeats;
+}
+/* B */
+#section3 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeats;
+}
+/* C */
+#section4 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeats;
+}
+/* D */
+#section5 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeats;
+}
